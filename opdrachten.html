@@ -12,52 +12,64 @@
     <h1 class="grijsblauw mt-4">Opdrachten Bootstrap CoderDojo</h1><br />
     <p>
         De programmeur heeft de website Puppy Love gemaakt. Kijk maar
-        <a href="https://ciskavs.github.io/puppy-love/index.html" target="_blank">hier</a>. Maar het ziet er nog niet erg mooi uit, vind je ook niet? Aan jou de taak om de website er beter uit te laten zien! Dat ga je doen met Bootstrap.
+        <a href="https://ciskavs.github.io/puppy-love/index.html" target="_blank">hier</a>. Maar het ziet er nog niet erg mooi uit,
+        vind je ook niet? Aan jou de taak om de website er beter uit te laten zien! Dat ga je doen met Bootstrap.
+        Zo moet het eruit komen te zien: <a href="https://ciskavs.github.io/puppy-love/ontwerp.pdf" target="_blank">Ontwerp puppy love website</a>.
     </p>
     <br />
 
     <h2 class="grijsblauw" style="background-color: blanchedalmond;">Opdracht 1 - bouw het ontwerp na</h2><br />
 
-    <h3 class="grijsblauw">Stap 1: Code downloaden</h3>
+    <h3 class="grijsblauw">Stap 1: Code bekijken</h3>
     <p>
         De code die je straks gaat aanpassen kun je vinden op
-        <a href="https://github.com/ciskavs/puppy-love" target="_blank">Github</a>. Klik op de groene knop 'Clone or Download' en download het zip bestand. Pak het daarna uit.
+        <a href="https://jsbin.com/vaxahud/edit?html,output" target="_blank">jsbin.com</a>.
+        Aan de linker kant staat de HTML code die je moet aanpassen. Rechts zie je hoe het er uit komt te zien op de website.
+        Als je gaat typen komt er een tekst in beeld die vraagt of je een kopie wil maken om jouw aanpassingen te bewaren.
+        Klik op 'Clone your own copy' om dat te doen. Zet deze pagina vervolgens in je Favorieten, zodat je 'm niet kwijt kunt raken.
     </p>
     <br />
 
-    <h3 class="grijsblauw">Stap 2: Project openen in editor </h3>
+    <h3 class="grijsblauw">Stap 2: Bootstrap gebruiken</h3>
     <p>
-        Open de editor van jouw keuze (bv. Sublime of Atom of een andere editor) en open daarin het project dat je net gedownload hebt. Als het goed is zie je een map 'css' en een map 'images' en een aantal bestanden, waaronder index.html.
+        Als je Bootstrap wilt gebruiken moet je dat aan de browser laten weten. Dat gebeurt in de code met deze regel:<br />
+        <pre>
+          &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" /&gt;
+        </pre>
+        Zie je 'm staan? <br /><br />
+        Als je wilt weten wat je allemaal met Bootstrap kunt doen, kijk dan op de
+        <a href="https://getbootstrap.com/docs/4.2/getting-started/introduction/" target="_blank">Bootstrap</a> website. <br />
+        Ook op de website van <a href="https://www.w3schools.com/bootstrap4/" target="_blank">w3schools.com</a> kun je veel voorbeelden
+        en uitleg vinden over Bootstrap.
     </p>
     <br />
 
-    <h3 class="grijsblauw">Stap 3: Bootstrap gebruiken</h3>
-    <p>
-        Om Bootstrap te kunnen gebruiken moet je het normaal gesproken eerst downloaden en zorgen dat de browser weet dat je het wil gebruiken. Maar nu hebben we dat al voor je gedaan: in het mapje css vind je het Bootstrap bestand: bootstrap.min.css. Dit bestand
-        is klein gemaakt door onder andere de spaties te verwijderen. Het is daardoor niet zo goed leesbaar. Maar alle informatie over Bootstrap kun je vinden op de
-        <a href="https://getbootstrap.com/docs/4.2/getting-started/introduction/" target="_blank">Bootstrap</a> website. <br /> In het bestand index.html vind je deze regel: &lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;. Hiermee is aangegeven
-        dat de browser Bootstrap moet gebruiken.
-    </p>
-    <br />
-
-    <h3 class="grijsblauw">Stap 4: Aan de slag!</h3>
+    <h3 class="grijsblauw">Stap 3: Aan de slag!</h3>
     <ul>
-        <li>In het bestand <a href="https://ciskavs.github.io/puppy-love/ontwerp.pdf">ontwerp.pdf</a> kun je het voorbeeld zien van hoe de website eruit moet komen te zien.</li>
-        <li>De code die je aan moet passen staat in index.html. Je hoeft zelf geen HTML te schrijven en ook geen CSS.</li>
-        <li>Met Bootstrap kun je niet de hele website opmaken. Om de grootte, kleur en type van de letters goed te zetten gebruik je het css bestand puppy-styles.css. Je kunt de namen van de classes op dezelfde manier gebruiken als je classes van Bootstrap
-            gebruikt.
+        <li><a href="https://ciskavs.github.io/puppy-love/ontwerp.pdf">Ontwerp website puppy love</a>: hier kun je het voorbeeld zien van
+          hoe de website eruit moet komen te zien.</li>
+        <li>De code die je aan moet passen staat in <a href="https://jsbin.com/vaxahud/edit?html,output" target="_blank">jsbin.com</a> onder
+           de kop 'HTML' aan de linker kant van het scherm.</li>
+        <li>Je hoeft zelf geen HTML te schrijven en ook geen CSS. Je gaat de Bootstrap classes toevoegen aan de HTML.</li>
+        <li>Met Bootstrap kun je niet de hele website opmaken. Om de grootte, kleur en type van de letters goed te zetten gebruik je
+          de class namen zoals in het CSS bestand staan (klik op de tab CSS om deze te zien).
+          Je kunt de namen van de classes op dezelfde manier gebruiken als je classes van Bootstrap gebruikt.
         </li>
     </ul>
     <p>
-        <b>Tip:</b> de meeste programmeurs maken de website stap voor stap op. Eerst zetten ze alles op de goede plaats (door het gebruik van het Grid (Rooster) uit Bootstrap). Daarna gaan ze de details invullen, zoals de kleur en grootte van de letters
-        en de afstanden tussen plaatjes en tekst.
+        <b>Tip:</b> de meeste programmeurs maken de website stap voor stap op. Eerst zetten ze alles op de goede plaats (door het gebruik van het <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Grid (rooster)</a> van Bootstrap). Daarna gaan ze de details invullen, zoals de kleur en grootte van de letters
+        en de afstanden tussen plaatjes en tekst.<br />
+        <b>Tip:</b> meer uitleg en voorbeelden over het Grid kun je ook vinden op de <a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp" target="_blank">w3schools.com</a> website.
     </p>
     <br />
 
     <h2 class="grijsblauw" style="background-color: blanchedalmond;">Opdracht 2 - Responsive maken</h2><br />
     <p>
-        Nu de website er op een groot scherm goed uitziet, gaan we de website 'responsive' maken. Responsive betekent dat de website er goed uitziet op verschillende apparaten, zoals op desktop computerschermen, tablets en mobiele telefoons. Open wat je in opdracht
-        1 hebt gemaakt en maak je scherm maar eens kleiner. Ziet dat er goed uit? Als je nog wel wat verbeterpuntjes ziet, dan is deze opdracht voor jou!<br/> <br /> Voor deze opdracht heb je het
+        Nu de website er op een groot scherm goed uitziet, gaan we de website 'responsive' maken. Responsive betekent dat de website er goed
+        uitziet op verschillende apparaten, zoals op desktop computerschermen, tablets en mobiele telefoons. Open wat je in opdracht
+        1 hebt gemaakt maar eens in 'Live preview' (het pijltje schuin omhoog aan de rechterkant van het jsbin.com scherm, net onder de tekst 'Help')
+         en maak je scherm maar eens kleiner. Ziet dat er goed uit? Als je nog wel wat verbeterpuntjes ziet, dan is deze opdracht voor jou!<br/>
+         Voor deze opdracht heb je het
         <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">grid systeem (rooster) van Bootstrap</a> nodig.
     </p>
     <br />
@@ -66,7 +78,7 @@
         In de vorige opdracht heb je voor 'Mijn favoriete puppies' steeds drie puppies naast elkaar laten zien. Maar op een mobiele telefoon passen er geen drie plaatjes van puppies naast elkaar. Dan moet je naar rechts scrollen om alle plaatjes te kunnen zien.
         Dat willlen we natuurlijk niet! Op mobiele telefoons willen we ze liever onder elkaar zien. Kun je dat maken?
         <br /><br />
-        <b>Tip: </b> gebruik voor de kleinste schermen (&lt; 768px) 'xs', bijvoorbeeld col-xs-12.
+        <b>Tip: </b> gebruik voor de kleinste schermen 'xs', bijvoorbeeld col-xs-12.
     </p>
     <br />
     <h3 class="grijsblauw">Stap 2: tablets</h3>
@@ -74,7 +86,13 @@
         Tablets zijn kleiner dan desktop schermen en net als de mobiele telefoon passen er geen drie plaatjes naast elkaar zonder dat je hoeft te scrollen naar rechts. Maar als de plaatjes onder elkaar staan, is er steeds veel witruimte naast de plaatjes. Ook
         niet zo mooi. Kun jij het zo maken dat er op tablets steeds twee plaatjes naast elkaar staan?
         <br /><br />
-        <b>Tip: </b> gebruik voor tablets (768-960 px) 'md', bijvoorbeeld col-md-6.
+        <b>Tip: </b> gebruik voor tablets 'md', bijvoorbeeld col-md-6.
+    </p>
+    <br />
+    <h3 class="grijsblauw">Stap 3: op alle aparaten goed?</h3>
+    <p>
+        Open de puppy love website weer in 'Live preview' en maak het scherm groter en kleiner. Ziet het er nu wel goed uit als het scherm
+        klein is, iets groter, nog groter en op z'n grootst? Dan heb je het goed gedaan!
     </p>
     <br />
 
@@ -92,7 +110,7 @@
                 Maak een slideshow van puppy plaatjes.
                 Hiervoor heeft Bootstrap
                 <a href="https://getbootstrap.com/docs/4.0/components/carousel/"
-                    target="_blank">carousel</a>. ( Je moet zelf ook wat HTML schrijven)
+                    target="_blank">carousel</a>. (Je moet zelf ook wat HTML schrijven)
             </li>
         </ul>
     </p>
